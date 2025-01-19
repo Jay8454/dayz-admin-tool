@@ -1,0 +1,29 @@
+{
+    "version": "1.0.0",
+    "name": "DayZ Admin Tool",
+    "settings": {
+        "omega_manager": {
+            "api_endpoint": "https://api.omegamanager.example.com",
+            "server_id": "default_server_id",
+            "api_key": "your_api_key_here",
+            "timeout_ms": 5000,
+            "retry_attempts": 3
+        },
+        "mod": {
+            "workshop_id": "12345678",
+            "name": "@AdminTool",
+            "version": "1.0.0",
+            "debug_mode": true,
+            "log_level": "INFO"
+        },
+        "server": {
+            "ip": "127.0.0.1",
+            "port": 2302,
+            "rcon_port": 2303,
+            "rcon_password": "changeme",
+            "max_players": 60,
+            "admin_uids": [],
+            "backup_interval_minutes": 30
+        }
+    }
+}

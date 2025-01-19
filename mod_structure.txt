@@ -1,0 +1,19 @@
+@AdminTool/
+├── addons/
+│   ├── admin_core.pbo
+│   │   ├── config.cpp
+│   │   ├── init.sqf
+│   │   └── functions/
+│   ├── admin_scripts.pbo
+│   │   ├── rcon/
+│   │   └── omega/
+│   └── admin_ui.pbo
+│       ├── dialogs/
+│       └── images/
+├── keys/
+│   └── admin_tool.bikey
+├── scripts/
+│   ├── build.js
+│   └── test.js
+├── package.json
+└── mod.cpp
